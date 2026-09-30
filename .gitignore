@@ -6,5 +6,25 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# Ambiente Python
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# dbt
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
