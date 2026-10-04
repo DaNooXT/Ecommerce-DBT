@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: quarantine_sales
+    columns:
+      - name: _quarantine_column
+        data_tests:
+          - not_null
+      - name: _source_value
+        data_tests:
+          - not_null
+
+  - name: quarantine_returns
+    columns:
+      - name: _quarantine_column
+        data_tests:
+          - not_null
+      - name: _source_value
+        data_tests:
+          - not_null
+
+  - name: quarantine_product
+    columns:
+      - name: _quarantine_column
+        data_tests:
+          - not_null
+      - name: _source_value
+        data_tests:
+          - not_null
+
+  - name: quarantine_date
+    columns:
+      - name: _quarantine_column
+        data_tests:
+          - not_null
+      - name: _source_value
+        data_tests:
+          - not_null
+
+  - name: quarantine_customer
+    columns:
+      - name: _quarantine_column
+        data_tests:
+          - not_null
+      - name: _source_value
+        data_tests:
+          - not_null
+
+  - name: quarantine_store
+    columns:
+      - name: _quarantine_column
+        data_tests:
+          - not_null
+      - name: _source_value
+        data_tests:
+          - not_null

@@ -22,6 +22,9 @@ models:
     silver:
       +materialized: table
       +schema: silver
+    quarantine:
+      +materialized: table
+      +schema: quarantine
     gold:
       +materialized: table
       +schema: gold
